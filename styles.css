@@ -5,19 +5,19 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background-color: #e49c9c;
-  background-image: url(images/linedPaper.jpg); /* Replace 'your-image-url.jpg' with your actual image URL */
+  background-image: url(images/linedPaper.jpg);
   background-size: 100%;
   background-position: center;
-  color: rgb(
-    59,
-    59,
-    59
-  ); /* Set text color to be visible against the background */
+  color: rgb(76, 76, 76);
+}
+
+@font-face {
+  font-family: SingleDay-Reg;
+  src: url(SingleDay-Regular.ttf);
 }
 
 .question-container {
-  font-family: 'Single Day', cursive;
+  font-family: 'SingleDay-Reg', cursive;
   text-align: center;
   font-size: xx-large;
   border: 5px rgb(76, 76, 76);
@@ -29,14 +29,10 @@ body {
 }
 
 .button {
-  font-family: 'Single Day', cursive;
+  font-family: 'SingleDay-Reg', cursive;
   text-align: center;
   font-size: large;
-  color: rgb(
-    76,
-    76,
-    76
-  ); /* Set text color to be visible against the background */
+  color: rgb(76, 76, 76);
   cursor: pointer;
   width: 100px;
   height: 100px;
