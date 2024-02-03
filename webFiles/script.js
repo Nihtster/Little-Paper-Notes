@@ -22,7 +22,7 @@ const buttonNo = document.querySelector('.button.no');
 function handleYes() {
   if (noClickCount > 0) {
     questionContainer.querySelector('h1').textContent =
-      'Hehe, you finally said yes, took some convincing lol.';
+      'Hehehe you finally said yes, mwahh.';
     // You can customize this to show a different message or perform a different action
   } else {
     questionContainer.querySelector('h1').textContent =
