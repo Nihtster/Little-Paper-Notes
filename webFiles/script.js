@@ -13,27 +13,17 @@ const noResponses = [
   '... no words',
 ];
 
-let noClickCount = 0;
 const questionContainer = document.querySelector(
   '.question-container'
 );
 const buttonNo = document.querySelector('.button.no');
 
 function handleYes() {
-  if (noClickCount > 0) {
-    questionContainer.querySelector('h1').textContent =
-      'Hehehe you finally said yes, mwahh.';
-    // You can customize this to show a different message or perform a different action
-  } else {
-    questionContainer.querySelector('h1').textContent =
-      'Hehe yay! Mwahh';
-  }
-  resetButtonPositions(buttonNo);
+  window.location.href = "altPage.html";
 }
 
 function handleNo() {
   const buttonNo = document.querySelector('.button.no');
-  noClickCount++;
 
   // Change the question text to a random one from the array
   const noResponsesIndex = Math.floor(
